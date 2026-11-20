@@ -427,7 +427,7 @@ footer a{text-underline-offset:4px}
         <div class="trail" aria-hidden="true"><svg class="ico" viewBox="0 0 100 50"><use href="#s-plane"/></svg></div>
         <div class="pt r"><span class="tm2">18:10</span><span>吉隆坡 KUL</span></div>
       </div>
-      <p class="note">抵達後入住機場的 Capsule Transit 旅館，隔天一早搭 AK74。</p>
+      <p class="note">入境後先到旅館寄放行李，再去 Sphere Lounge 用餐（JCB 卡）；旅館 20:00 才能入住，隔天一早搭 AK74。</p>
     </article>
     <article class="card flight f1">
       <div class="f-top"><span class="chip c-sea">去程・馬爾地夫</span><span class="date">3/31（三）</span><span class="fno">AK74</span></div>
@@ -443,9 +443,9 @@ footer a{text-underline-offset:4px}
       <div class="route">
         <div class="pt"><span class="tm2">10:45</span><span>馬列 MLE</span></div>
         <div class="trail" aria-hidden="true"><svg class="ico" viewBox="0 0 100 50"><use href="#s-plane"/></svg></div>
-        <div class="pt r"><span class="tm2">18:15</span><span>吉隆坡 KUL</span></div>
+        <div class="pt r"><span class="tm2">18:25</span><span>吉隆坡 KUL</span></div>
       </div>
-      <p class="note">8 位旅客搭乘此班，當晚入住機場的 Capsule Transit 旅館。</p>
+      <p class="note">8 位旅客搭乘此班。抵達後先到旅館寄放行李，再去 Gateway@klia2 逛街吃飯，20:00 後入住。</p>
     </article>
     <article class="card flight f4">
       <div class="f-top"><span class="chip c-sun">回程・高雄</span><span class="date">4/6（二）</span><span class="fno">AK170</span></div>
@@ -461,9 +461,9 @@ footer a{text-underline-offset:4px}
       <div class="route">
         <div class="pt"><span class="tm2">10:45</span><span>馬列 MLE</span></div>
         <div class="trail" aria-hidden="true"><svg class="ico" viewBox="0 0 100 50"><use href="#s-plane"/></svg></div>
-        <div class="pt r"><span class="tm2">18:15</span><span>吉隆坡 KUL</span></div>
+        <div class="pt r"><span class="tm2">18:25</span><span>吉隆坡 KUL</span></div>
       </div>
-      <p class="note">棠哥一人搭乘此班（晚一天回程），18:15 抵達吉隆坡後，隔天 4/7 再搭 AK170 回高雄。</p>
+      <p class="note">棠哥一人搭乘此班（晚一天回程），18:25 抵達吉隆坡後，隔天 4/7 再搭 AK170 回高雄。4/5、4/6 兩晚住宿自理。</p>
     </article>
     <article class="card flight f4">
       <div class="f-top"><span class="chip c-sun">回程・高雄（棠哥）</span><span class="date">4/7（三）</span><span class="fno">AK170</span></div>
@@ -472,7 +472,7 @@ footer a{text-underline-offset:4px}
         <div class="trail" aria-hidden="true"><svg class="ico" viewBox="0 0 100 50"><use href="#s-plane"/></svg></div>
         <div class="pt r"><span class="tm2">12:45</span><span>高雄 KHH</span></div>
       </div>
-      <p class="note">棠哥延後一天回程，航班時間與 4/6 的 AK170 相同；4/6 晚在吉隆坡的住宿尚未提供。</p>
+      <p class="note">棠哥延後一天回程，航班時間與 4/6 的 AK170 相同；4/5、4/6 兩晚住宿自理。</p>
     </article>
   </div>
   <p class="note nb" style="margin-top:16px">高雄與吉隆坡同為 UTC+8；馬爾地夫比吉隆坡慢 3 小時，所以馬列的起降時間要用當地時間看。</p>
@@ -523,7 +523,7 @@ footer a{text-underline-offset:4px}
           <li><em>4 間</em>雙人房</li>
           <li><em>1 間</em>單人房</li>
         </ul>
-        <p class="meal-note">3/30 是去程當晚、4/5 是回程當晚。</p>
+        <p class="meal-note">3/30、4/5 皆 20:00 才能入住，可先到櫃台寄放行李。3/30 可持 JCB 卡到 Sphere Lounge 用餐（營業至 23:00），4/5 可到 Gateway@klia2 逛街吃飯。棠哥 4/5、4/6 住宿自理，不在此訂房內。</p>
       </div>
     </article>
     <article class="card stay a">
@@ -638,8 +638,10 @@ var DAYS=[
   m:null,
   items:[
    {t:'13:45',h:'高雄起飛 AK171',p:'搭乘 AK171 飛往吉隆坡，當地時間 18:10 抵達。',g:['飛機']},
-   {t:'18:10',h:'抵達吉隆坡',p:'辦理入境，前往機場內的旅館。',g:['飛機']},
-   {t:'晚上',h:'入住 Capsule Transit 機場旅館',p:'Capsule Transit Landside - Airport Hotel Public Area。隔天 08:35 就要搭 AK74，早點休息。',g:['住宿']}
+   {t:'18:10',h:'抵達吉隆坡・入境',p:'辦理入境手續，領完行李後前往機場旅館。',g:['飛機']},
+   {t:'入境後',h:'先到旅館寄放行李',p:'旅館 20:00 才能入住，先把行李寄放在櫃台，輕鬆去吃飯。',g:['住宿']},
+   {t:'晚餐',h:'持 JCB 卡到 Sphere Lounge 用餐',p:'憑 JCB 卡進入 Sphere Lounge 貴賓室享用餐點，營業至 23:00。出發前請確認卡片可使用的條件與人數。',g:['用餐'],must:1},
+   {t:'20:00 後',h:'入住 Capsule Transit 機場旅館',p:'Capsule Transit Landside - Airport Hotel Public Area，20:00 起可入住。隔天 08:35 就要搭 AK74，吃完早點回去休息。',g:['住宿']}
   ]},
  {date:'3/31',wk:'三',c:'var(--coral)',art:'d1',title:'抵達馬列・前往 Maafushi',stay:'Triton Exotica（Maafushi 居民島）',
   m:['無','自理','飯店'],
@@ -690,11 +692,13 @@ var DAYS=[
   items:[
    {t:'早上',h:'飯店早餐・整理行李',p:'把每一刻的感動收進心底，向這片夢幻海島輕聲說 goodbye。',g:['用餐']},
    {t:'前往',h:'前往馬列機場',p:'起飛前請預留充足的報到時間（建議至少 3 小時前抵達）。',g:['接駁']},
-   {t:'10:45',h:'馬列起飛 AK75',p:'8 位旅客搭乘此班，當地時間 18:15 抵達吉隆坡。',g:['飛機']},
-   {t:'18:15',h:'抵達吉隆坡',p:'辦理入境，前往機場內的旅館。',g:['飛機']},
-   {t:'晚上',h:'入住 Capsule Transit 機場旅館',p:'Capsule Transit Landside - Airport Hotel Public Area。明天 08:10 搭 AK170 回高雄，早點休息。',g:['住宿']}
+   {t:'10:45',h:'馬列起飛 AK75',p:'8 位旅客搭乘此班，當地時間 18:25 抵達吉隆坡。',g:['飛機']},
+   {t:'18:25',h:'抵達吉隆坡・入境',p:'辦理入境手續，領完行李後前往機場旅館。',g:['飛機']},
+   {t:'入境後',h:'先到旅館寄放行李',p:'旅館 20:00 才能入住，先把行李寄放在櫃台。',g:['住宿']},
+   {t:'晚上',h:'逛 Gateway@klia2 商場・吃晚餐',p:'在機場旁的 Gateway@klia2 商場逛街、吃飯，慢慢收尾這趟旅程。',g:['用餐','自由活動']},
+   {t:'20:00 後',h:'入住 Capsule Transit 機場旅館',p:'Capsule Transit Landside - Airport Hotel Public Area，20:00 起可入住。明天 08:10 搭 AK170 回高雄，早點休息。',g:['住宿']}
   ],
-  note:'棠哥搭乘 4/6（二）同樣 10:45 起飛的 AK75，4/7 再搭 AK170 回高雄。他 4/5 晚在馬爾地夫的住宿，以及 4/6 晚在吉隆坡的住宿，都未提供，請向旅行社確認。'},
+  note:'棠哥搭乘 4/6（二）同樣 10:45 起飛的 AK75，4/7 再搭 AK170 回高雄。他 4/5、4/6 兩晚的住宿都自理。'},
  {date:'4/6',wk:'二',c:'var(--leaf)',art:'d0',title:'吉隆坡回高雄',stay:'—（返程日）',
   m:null,
   items:[
@@ -702,7 +706,7 @@ var DAYS=[
    {t:'08:10',h:'吉隆坡起飛 AK170',p:'搭乘 AK170 飛回高雄，12:45 抵達。',g:['飛機']},
    {t:'12:45',h:'抵達高雄',p:'旅程結束，帶著滿滿的回憶回家。',g:['飛機']}
   ],
-  note:'棠哥今天搭 AK75（10:45 馬列起飛、18:15 抵達吉隆坡），明天 4/7 再搭 AK170（08:10 到 12:45）回高雄。'}
+  note:'棠哥今天搭 AK75（10:45 馬列起飛、18:25 抵達吉隆坡），住宿自理，明天 4/7 再搭 AK170（08:10 到 12:45）回高雄。'}
 ];
 
 function dayHTML(d,n){
@@ -766,8 +770,9 @@ var TODO=[{t:'旅程確認事項',c:'k-sun',items:[
   '確認訂金 US$6,300 已匯款並留存收據',
   '備妥尾款美金現金（抵達馬列時繳）：每人 $500，第三人加床 $340，合計 $4,340',
   '確認高雄 ⇄ 吉隆坡電子機票（3/30 AK171、4/6 AK170；棠哥為 4/7 AK170）與託運行李額度',
-  '確認 Capsule Transit 機場旅館（3/30、4/5）的訂房憑證與入住方式',
-  '確認棠哥 4/5 晚在馬爾地夫的住宿，以及 4/6 晚在吉隆坡的住宿與接送',
+  '確認 Capsule Transit 機場旅館（3/30、4/5）的訂房憑證，以及 20:00 前可寄放行李',
+  '準備好 JCB 卡，確認 Sphere Lounge 的入場條件與人數（營業至 23:00）',
+  '提醒棠哥 4/5（馬爾地夫）與 4/6（吉隆坡）兩晚住宿自理，並確認他已訂好',
   '向旅行社索取書面行程表與各飯店訂房確認',
   '確認各段快艇接送的時間與集合方式',
   '決定是否加購水上活動（如水上跑車）並預留預算',
@@ -800,7 +805,8 @@ var PREP=[
   '提早到高雄機場報到（AK171 13:45 起飛，建議 3 小時前抵達）',
   '確認護照、登機證、美金現金都在隨身包',
   '出門前檢查門窗、電源與瓦斯',
-  '到吉隆坡後早點休息，3/31 08:35 就要搭 AK74',
+  '到吉隆坡入境後先寄放行李，再持 JCB 卡到 Sphere Lounge 用餐',
+  '20:00 後入住旅館，早點休息，3/31 08:35 就要搭 AK74',
   '3/31 抵達馬列後 10:40 到出關口集合，並備妥尾款'
  ]}
 ];
